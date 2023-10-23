@@ -1,0 +1,7 @@
+NORMAL QUANTILE REGRESSION
+print(np.mean(cover), np.mean(width))
+0.6770489977728286 0.5318762033134827
+
+CONFORMAL QUANTILE REGRESSION
+print(np.mean(cover), np.mean(width), np.mean(cover_cond, axis=0), np.mean(width_cond, axis=0))
+0.9009090909090911 0.7591115622780867 [0. 0. 0.] [0. 0. 0.]
